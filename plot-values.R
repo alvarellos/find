@@ -3,7 +3,7 @@
 setwd("~/go/src/github.com/estv-admin/find/")
 # getwd()
 
-df = read.csv("plot.csv")
+df = read.csv("values.csv")
 # df
 # summary(df)
 # str(df)

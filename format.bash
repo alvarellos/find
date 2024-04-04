@@ -1,1 +1,1 @@
-sed '2d' KMeansResults.csv > plot.csv
+sed '2d' ./results/KMeansResults.csv > values.csv
