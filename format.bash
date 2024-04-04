@@ -1,0 +1,1 @@
+sed '2d' KMeansResults.csv > plot.csv

@@ -1,10 +1,15 @@
 package main
 
 import (
-	"fmt"
+	"encoding/csv"
 	"math/rand"
+	"os"
 
 	"github.com/cdipaolo/goml/cluster"
+)
+
+const (
+	fileErr = "file save error"
 )
 
 func main() {
@@ -37,39 +42,52 @@ func main() {
 	}
 
 	// now you can predict like normal!
-	guess, err := model.Predict([]float64{-3, 6})
-	fmt.Println("Prediction")
-	fmt.Println(guess)
-	if err != nil {
-		panic("prediction error")
-	}
+	// guess, err := model.Predict([]float64{-3, 6})
+	// fmt.Println("Prediction")
+	// fmt.Println(guess)
+	// if err != nil {
+	// 	panic("prediction error")
+	// }
 
 	// or if you want to get the clustering
 	// results from the data
-	fmt.Println("Cluster results")
-	results := model.Guesses()
-	fmt.Println(results)
+	// fmt.Println("Cluster results")
+	// results := model.Guesses()
+	// fmt.Println(results)
 
 	// you can also concat that with the
 	// training set and save it to a file
 	// (if you wanted to plot it or something)
-	err = model.SaveClusteredData("./KMeansResults.csv")
+	err := model.SaveClusteredData("./KMeansResults.csv")
 	if err != nil {
-		panic("file save error")
+		panic(fileErr)
 	}
+
+	// Write the CSV data
+	file2, err := os.OpenFile("./KMeansResults.csv", os.O_WRONLY, 0644)
+	if err != nil {
+		panic(err)
+	}
+	defer file2.Close()
+
+	writer := csv.NewWriter(file2)
+	defer writer.Flush()
+	// this defines the header value and data values for the new csv file
+	headers := []string{"x", "y", "class"}
+	writer.Write(headers)
 
 	// you can also persist the model to a
 	// file
 	err = model.PersistToFile("./KMeans.json")
 	if err != nil {
-		panic("file save error")
+		panic(fileErr)
 	}
 
 	// and also restore from file (at a
 	// later time if you want)
 	err = model.RestoreFromFile("./KMeans.json")
 	if err != nil {
-		panic("file save error")
+		panic(fileErr)
 	}
 
 }
