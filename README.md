@@ -20,3 +20,9 @@ Check values
 # summary(df)
 # str(df)
 # plot(df)
+
+
+# Definition of the class in NaiveBayes Sentiment Analysis (it is just an example):
+Class0: this is positive
+Class1: this is negative
+Class2: this is neutral

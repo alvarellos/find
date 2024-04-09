@@ -88,7 +88,10 @@ func Social() {
 		fmt.Println("error guardando datos")
 	}
 
-	var comments = []string{"My mother is in Japan and she never saw this", "I probably like to test it", "what a bad idea you had", "I don't like this", "I eat sushi every week", "it looks interesting", "nice job, I could use this product for my restaurant", "tomorrow I will buy one", "where can I buy it?", "what a nice idea!", "is it possible to try it?"}
+	// Here our API calls to the Social media
+	// Parse the response so we have the comments
+	// For this demo, I just create a few of them manually
+	var comments = []string{"My mother is in Japan and she never saw this", "I probably like to test it", "what a bad idea you had", "I don't like this", "I eat sushi every week", "it looks interesting", "nice job, I could use this product for my restaurant", "tomorrow I will buy one", "where can I buy it?", "what a nice idea!", "is it possible to try it?", "tommorrow I am going to the cinema", "this is great", "it looks interesting", "this solution is not new", "I think it is useless"}
 
 	// This a test for a prediction
 	class := model.Predict("My mother is in Delhi a city in India, gets very hot")

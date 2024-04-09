@@ -1,1 +1,363 @@
-{"words":{"adding":{"Count":[0,0,1],"Seen":1},"all":{"Count":[1,0,0],"Seen":1},"and":{"Count":[1,0,0],"Seen":1},"are":{"Count":[1,0,0],"Seen":1},"around":{"Count":[1,0,0],"Seen":1},"boder":{"Count":[1,0,0],"Seen":1},"combination":{"Count":[0,0,1],"Seen":1},"could":{"Count":[0,1,0],"Seen":1},"favourite":{"Count":[0,0,1],"Seen":1},"first":{"Count":[0,1,0],"Seen":1},"food":{"Count":[0,0,2],"Seen":2},"for":{"Count":[0,0,1],"Seen":1},"great":{"Count":[0,0,2],"Seen":2},"has":{"Count":[0,1,0],"Seen":1},"idea":{"Count":[0,0,1],"Seen":1},"idots":{"Count":[1,0,0],"Seen":1},"imagine":{"Count":[0,1,0],"Seen":1},"interest":{"Count":[0,1,0],"Seen":1},"japanese":{"Count":[0,0,1],"Seen":1},"like":{"Count":[1,0,0],"Seen":1},"love":{"Count":[0,0,1],"Seen":1},"people":{"Count":[0,1,0],"Seen":1},"perfect":{"Count":[0,0,1],"Seen":1},"plates":{"Count":[0,0,1],"Seen":1},"probably":{"Count":[0,1,0],"Seen":1},"product":{"Count":[1,0,1],"Seen":2},"see":{"Count":[0,1,0],"Seen":1},"show":{"Count":[1,0,0],"Seen":1},"some":{"Count":[0,1,0],"Seen":1},"stupid":{"Count":[1,0,0],"Seen":1},"sucks":{"Count":[1,0,0],"Seen":1},"sushi":{"Count":[0,0,1],"Seen":1},"that":{"Count":[0,2,0],"Seen":2},"the":{"Count":[0,1,0],"Seen":1},"think":{"Count":[0,1,0],"Seen":1},"this":{"Count":[2,2,2],"Seen":6},"time":{"Count":[0,1,0],"Seen":1},"try":{"Count":[0,1,0],"Seen":1},"what":{"Count":[0,0,1],"Seen":1},"why":{"Count":[1,0,0],"Seen":1},"will":{"Count":[0,1,0],"Seen":1},"you":{"Count":[2,0,0],"Seen":2},"your":{"Count":[1,0,0],"Seen":1}},"count":[3,3,3],"probabilities":[0.3333333333333333,0.3333333333333333,0.3333333333333333],"document_count":9,"vocabulary_size":43,"tokenizer":{"SplitOn":" "}}
+{
+    "words": {
+        "adding": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "all": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "and": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "are": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "around": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "boder": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "combination": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "could": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "favourite": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "first": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "food": {
+            "Count": [
+                0,
+                0,
+                2
+            ],
+            "Seen": 2
+        },
+        "for": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "great": {
+            "Count": [
+                0,
+                0,
+                2
+            ],
+            "Seen": 2
+        },
+        "has": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "idea": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "idots": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "imagine": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "interest": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "japanese": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "like": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "love": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "people": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "perfect": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "plates": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "probably": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "product": {
+            "Count": [
+                1,
+                0,
+                1
+            ],
+            "Seen": 2
+        },
+        "see": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "show": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "some": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "stupid": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "sucks": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "sushi": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "that": {
+            "Count": [
+                0,
+                2,
+                0
+            ],
+            "Seen": 2
+        },
+        "the": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "think": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "this": {
+            "Count": [
+                2,
+                2,
+                2
+            ],
+            "Seen": 6
+        },
+        "time": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "try": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "what": {
+            "Count": [
+                0,
+                0,
+                1
+            ],
+            "Seen": 1
+        },
+        "why": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        },
+        "will": {
+            "Count": [
+                0,
+                1,
+                0
+            ],
+            "Seen": 1
+        },
+        "you": {
+            "Count": [
+                2,
+                0,
+                0
+            ],
+            "Seen": 2
+        },
+        "your": {
+            "Count": [
+                1,
+                0,
+                0
+            ],
+            "Seen": 1
+        }
+    },
+    "count": [
+        3,
+        3,
+        3
+    ],
+    "probabilities": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+    ],
+    "document_count": 9,
+    "vocabulary_size": 43,
+    "tokenizer": {
+        "SplitOn": " "
+    }
+}
