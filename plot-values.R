@@ -1,14 +1,10 @@
 # Ctrl + Alt + R ejecuta todo el script
 
 setwd("~/go/src/github.com/estv-admin/find/")
-# getwd()
 
-df = read.csv("values.csv")
-# df
-# summary(df)
-# str(df)
-# plot(df)
+df <- read.csv("values.csv")
 
 library(ggplot2)
 
-ggplot(df, aes(x, y, colour = class)) + geom_point()
+ggplot(df, aes(x, y, colour = class)) +
+  geom_point()
